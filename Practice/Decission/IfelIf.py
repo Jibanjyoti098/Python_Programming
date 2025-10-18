@@ -1,0 +1,9 @@
+x=int(input("Enter no:"))
+if x>10:
+    print(x,"is greater than 10")
+    
+elif x == 5:
+    print(x,"is equal to 5")
+
+else:
+    print(x,"is less than 5 or not equal to 5")
