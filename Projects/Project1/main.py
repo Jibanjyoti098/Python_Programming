@@ -2,7 +2,7 @@ import random
 
 computer = random.choice([-1, 1, 0])
 youstr = input("Enter your choice: ")
-youDict = {"S":1, "W":-1, "G":0}
+youDict = {"Snake":1, "Water":-1, "Gun":0}
 reversedDict = {1:"Snake", -1:"Water", 0:"Gun"}
 you = youDict[youstr]
 print(f"You chose {reversedDict[you]}\nComputer choose {reversedDict[computer]}")
